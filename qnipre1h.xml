@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrowserAutomationStudioProject>
+     <Script><![CDATA[]]></Script>
+     <ModuleInfo><![CDATA[]]></ModuleInfo>
+     <Modules/>
+     <EmbeddedData><![CDATA[]]></EmbeddedData>
+     <DatabaseId></DatabaseId>
+     <Schema></Schema>
+     <ConnectionIsRemote>false</ConnectionIsRemote>
+     <ConnectionServer></ConnectionServer>
+     <ConnectionPort></ConnectionPort>
+     <ConnectionLogin></ConnectionLogin>
+     <ConnectionPassword></ConnectionPassword>
+     <ScriptName></ScriptName>
+     <ProtectionStrength>4</ProtectionStrength>
+     <UnusedModules></UnusedModules>
+     <ScriptIcon></ScriptIcon>
+     <IsCustomIcon>false</IsCustomIcon>
+     <HideBrowsers>false</HideBrowsers>
+     <IntegrateScheduler>false</IntegrateScheduler>
+     <SingleInstance>false</SingleInstance>
+     <CopySilent>false</CopySilent>
+     <IsEnginesInAppData>false</IsEnginesInAppData>
+     <CompileType>NoProtection</CompileType>
+     <ScriptVersion></ScriptVersion>
+     <AvailableLanguages></AvailableLanguages>
+     <OutputTitle1/>
+     <OutputTitle2/>
+     <OutputTitle3/>
+     <OutputTitle4/>
+     <OutputTitle5/>
+     <OutputTitle6/>
+     <OutputTitle7/>
+     <OutputTitle8/>
+     <OutputTitle9/>
+     <OutputVisible1>144</OutputVisible1>
+     <OutputVisible2>106</OutputVisible2>
+     <OutputVisible3>235</OutputVisible3>
+     <OutputVisible4>170</OutputVisible4>
+     <OutputVisible5>138</OutputVisible5>
+     <OutputVisible6>0</OutputVisible6>
+     <OutputVisible7>0</OutputVisible7>
+     <OutputVisible8>0</OutputVisible8>
+     <OutputVisible9>90</OutputVisible9>
+     <ModelList>
+          <Model>
+               <Name>willsub</Name>
+               <Description en="Will Sub?" ru="Đăng Ký?"/>
+               <SectionName en="Action Modules" ru="Action Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>1</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>limitsub</Name>
+               <Description en="Daily Limit" ru="Daily Limit Sub"/>
+               <SectionName en="Action Modules" ru="Action Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>50</Value>
+               <MinValue>-99999999</MinValue>
+               <MaxValue>99999999</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>willlike</Name>
+               <Description en="Like Video?" ru="Thích?"/>
+               <SectionName en="Action Modules" ru="Action Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>1</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>willcomment</Name>
+               <Description en="Will Comment?" ru="Bình Luận?"/>
+               <SectionName en="Action Modules" ru="Action Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>1</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>comment</Name>
+               <Description en="Comment" ru="Bình Luận"/>
+               <SectionName en="Action Modules" ru="Action Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>1</Mix>
+               <MaxSuccess>100000</MaxSuccess>
+               <MaxFail>100000</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>willview</Name>
+               <Description en="View Video?" ru="Xem Video?"/>
+               <SectionName en="View Modules" ru="View Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>0</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>cachchay</Name>
+               <Description en="View Method" ru="Cách Chạy"/>
+               <SectionName en="View Modules" ru="View Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Suggested Views
+Keyword Search Views
+Auto Search Views
+Browser Feature Views</Values>
+               <Selected>2</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>searchpage</Name>
+               <Description en="Search Limit" ru="Page to Search"/>
+               <SectionName en="View Modules" ru="View Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>10</Value>
+               <MinValue>-99999999</MinValue>
+               <MaxValue>99999999</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>skipads</Name>
+               <Description en="Skip Ads" ru="Skip Ads"/>
+               <SectionName en="View Modules" ru="View Modules"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>0</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Phuong An</Name>
+               <Description en="Proxy Sources" ru="Phuong An"/>
+               <SectionName en="Proxy Settings" ru="Proxy Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>From Data
+From File
+RRP
+No</Values>
+               <Selected>1</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>listproxy</Name>
+               <Description en="File Proxy" ru="File Proxy"/>
+               <SectionName en="Proxy Settings" ru="Proxy Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile,LinesFromUrl</AllowedTypes>
+               <Filename>C:/Users/Administrator/Downloads/Qni-data/proxy-us.txt</Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>1</Mix>
+               <MaxSuccess>100000</MaxSuccess>
+               <MaxFail>100000</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>600000</ReloadInterval>
+               <RenewInterval>3600000</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults>
+               <Default>
+                    <Name>listproxy</Name>
+                    <Description en="File Proxy" ru="File Proxy"/>
+                    <SectionName en="Proxy Settings" ru="Proxy Settings"/>
+                    <VisibilityConditionValue></VisibilityConditionValue>
+                    <VisibilityConditionVariable></VisibilityConditionVariable>
+                    <Type>LinesFromUrl</Type>
+                    <IsAdvanced>0</IsAdvanced>
+                    <Visible>1</Visible>
+                    <Enabled>1</Enabled>
+                    <AllowedTypes>LinesFromFile,LinesFromUrl</AllowedTypes>
+                    <LinesFromUrl>C:\Users\Administrator\Downloads\Qni-data\proxy-us.txt</LinesFromUrl>
+                    <Mix>1</Mix>
+                    <MaxSuccess>999999999</MaxSuccess>
+                    <MaxFail>999999999</MaxFail>
+                    <MaxSimultaneous>9991</MaxSimultaneous>
+                    <Interval>5000</Interval>
+                    <ReloadInterval>60000</ReloadInterval>
+                    <RenewInterval>3600000</RenewInterval>
+                    <CaptureMethod>0</CaptureMethod>
+                    <CaptureArgument>[\r\n]</CaptureArgument>
+                    <Greedy>0</Greedy>
+               </Default>
+          </Defaults>
+          <Model>
+               <Name>gmail</Name>
+               <Description en="Gmail Accounts" ru="Danh Sách Gmail"/>
+               <SectionName en="Accounts - Links" ru="Accounts &amp; Profiles"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename>C:/Users/Administrator/Downloads/Qni-data/gmail.txt</Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>1</Mix>
+               <MaxSuccess>999999999</MaxSuccess>
+               <MaxFail>999999999</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>0</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>link</Name>
+               <Description en="List Videos" ru="List Videos"/>
+               <SectionName en="Accounts - Links" ru="Accounts &amp; Profiles"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename>C:/Users/Administrator/Downloads/Qni-data/videos_id.txt</Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>1</Mix>
+               <MaxSuccess>999999999</MaxSuccess>
+               <MaxFail>999999999</MaxFail>
+               <MaxSimultaneous>999999999</MaxSimultaneous>
+               <Interval>0</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>data</Name>
+               <Description en="Search Data" ru="Search Data"/>
+               <SectionName en="Accounts - Links" ru="Accounts &amp; Profiles"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Database</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Database</AllowedTypes>
+               <GroupList></GroupList>
+               <TableId>1</TableId>
+               <ColumnIds>0</ColumnIds>
+               <Clean>0</Clean>
+               <Mix>1</Mix>
+               <MaxSuccess>100000</MaxSuccess>
+               <MaxFail>100000</MaxFail>
+               <MaxSimultaneous>99999</MaxSimultaneous>
+               <Interval>0</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>thuegmail</Name>
+               <Description en="Rent Gmail?" ru="Thuê Gmail?"/>
+               <SectionName en="Accounts - Links" ru="Accounts &amp; Profiles"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>1</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>cookiesthue</Name>
+               <Description en="Rented Cookies" ru="Gmail Thuê"/>
+               <SectionName en="Accounts - Links" ru="Accounts &amp; Profiles"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>1</Mix>
+               <MaxSuccess>100000</MaxSuccess>
+               <MaxFail>100000</MaxFail>
+               <MaxSimultaneous>999999</MaxSimultaneous>
+               <Interval>0</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>licensekeyqnibot</Name>
+               <Description en="License Key" ru="License Key"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>7df74f4b-b287-4ff6-9df8-bc15bfde3371</Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>run</Name>
+               <Description en="Run" ru="ВВЕДИТЕ ОПИСАНИЕ"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>99999999</Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>threads</Name>
+               <Description en="Threads" ru="Потоки"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>200</Value>
+               <MinValue>-99999999</MinValue>
+               <MaxValue>99999999</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>path</Name>
+               <Description en="Folder Cookies" ru="Folder Lưu Trữ"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>C:\Users\Administrator\Downloads\Qni-data\cookies</Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>path2</Name>
+               <Description en="Folder Data" ru="Folder Lưu Danh Sách Gmail Đã Dùng"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>C:\Users\Administrator\Downloads\Qni-data\data</Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>useragentmobile</Name>
+               <Description en="Useragent  (Mobile)" ru="Trình Duyệt Ảo (Mobile)"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename>C:/Users/Administrator/Downloads/Qni-data/Mobile-Android-486mb.txt</Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>1</Mix>
+               <MaxSuccess>100000</MaxSuccess>
+               <MaxFail>100000</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>usegmail</Name>
+               <Description en="Use gmail?" ru="Use gmail accounts?"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>0</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>taoprofile</Name>
+               <Description en="Create Profile?" ru="Tạo Profile?"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>0</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>cookprofile</Name>
+               <Description en="Cookies or Profile?" ru="Cookies or Profile?"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Cookies
+Profile</Values>
+               <Selected>1</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>nogmailproifile</Name>
+               <Description en="Non-gmail Profiles" ru="Non-gmail Profiles"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>RandomInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>RandomInteger</AllowedTypes>
+               <MinUserValue>1</MinUserValue>
+               <MinDesignValue>108</MinDesignValue>
+               <MaxUserValue>1000</MaxUserValue>
+               <MaxDesignValue>7077953</MaxDesignValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>keycaptcha</Name>
+               <Description en="Key Captcha" ru="Key Captcha"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>clearcaches</Name>
+               <Description en="Clear Caches?" ru="Clear Cookies/Profile?"/>
+               <SectionName en="General Settings" ru="General Settings"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>1</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
+     </ModelList>
+</BrowserAutomationStudioProject>
